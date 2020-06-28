@@ -47,7 +47,7 @@ def region_counter(input_file, output_file=False, show_output=False):
     for contour in contours:
         drawContour(contour, imres)
 
-    print("Number of contours: %d" % len(contours))
+    #print("Number of contours: {}".format(len(contours)))
 
     def drawContour(poly_contour, imout):
         color = tuple([random.uniform(0, 255) for i in range(3)])
@@ -165,7 +165,7 @@ def region_counter(input_file, output_file=False, show_output=False):
 
     # imres = cv.cvtColor(np.zeros_like(imgray), cv.COLOR_GRAY2BGR)
     imres = cv.cvtColor(imgray, cv.COLOR_GRAY2BGR)
-    print("Number of areas: %d" % len(AREAS))
+    print("Number of areas: {}".format(len(AREAS) - 1))
     for area in AREAS:
         color = tuple([random.randrange(0, 255) for _ in range(3)])
         for (j, i) in area:
