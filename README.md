@@ -6,7 +6,11 @@ When I have first approached this problem I wanted to try a different way of sol
 `python land_sea.py <path to input file>.txt`
 
 \>\> The solution will be written into the console and multiple new files will be created
-
+# Dependencies
+* matplotlib
+* numpy
+* cv2 (openCV)
+---
 # Example
 input file:
 ```
