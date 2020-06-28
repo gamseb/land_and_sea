@@ -8,7 +8,7 @@ if (not input_file) or (not os.path.isfile(input_file)):
     sys.exit()
 
 generate_image(input_file, 'generated_plot.png')
-regions = region_counter('/home/gamseb/Desktop/test_image.png', 'colorized_plot.png', show_output=True)
+regions = region_counter('generated_plot.png', 'colorized_plot.png', show_output=True)
 print("The number of regions is: " + str(regions))
 
 
