@@ -33,7 +33,7 @@ input file:
 The rectangles get plotted with `matplotlib` as `generated_plot.png`
 ![generated_plot](images/generated_plot.png)
 
-Then the "regions" get visualised by different colors and saved as 'colorized_plot.png'
+Then the "regions" get visualised by different colors and saved as `colorized_plot.png`
 ![colorized_plot](images/colorized_plot.png)
 
 The final number of regions gets printed to the console
